@@ -1,0 +1,43 @@
+#pastePanel {
+	padding: 0px;
+	margin-bottom: 5px;
+}
+#pastePanel textarea {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 394px;
+    padding: 3px;
+
+    color: rgb(80, 80, 160);
+    border: dashed 1px rgb(80, 80, 160);
+    background-color: #eeeeee;
+    cursor: help;
+
+    overflow: hidden;
+    display: none;
+}
+#pastePanel button {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+    margin-left: 5px;
+    vertical-align: bottom;
+    display: none;
+}
+#pastePanel img {
+    border: solid 1px #999999;
+    
+    margin-top: 5px;
+    display: none;
+}
+
+.pasteData {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 394px;
+    padding: 3px;
+
+    color: rgb(80, 80, 160);
+    border: dashed 1px rgb(80, 80, 160);
+    background-color: #eeeeee;
+}
