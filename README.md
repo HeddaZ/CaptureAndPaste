@@ -3,15 +3,8 @@ CaptureAndPaste for MantisBT 1.2.x/2.2.x - Image Capturer for Uploading. Capture
 ```Powered by Hedda```
   
   
-# Install for MantisBT 1.2.x
+# Install for MantisBT
 Add below statement to config_inc.php  
->> $g_file_upload_max_num = 1;
+> $g_file_upload_max_num = 1;
   
-Copy and overwrite the files with `/MantisBT 1.2.x/*.*`
-  
-  
-# Install for MantisBT 2.2.x
-Add below statement to config_inc.php  
->> $g_file_upload_max_num = 1;
-  
-Copy and overwrite the files with `/MantisBT 2.2.x/*.*`
+Copy and overwrite the files with `/MantisBT x.x.x/*.*`
