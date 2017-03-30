@@ -4,7 +4,5 @@ CaptureAndPaste for MantisBT 1.2.x/2.2.x - Image Capturer for Uploading. Capture
   
   
 # Install for MantisBT
-Add below statement to config_inc.php  
-> $g_file_upload_max_num = 1;
-  
-Copy and overwrite the files with `/MantisBT x.x.x/*.*`
+Copy and overwrite the files with `/MantisBT x.x.x/*.*`.  
+*(This resolution needs a little code change in core. Do match the core version prior.)*

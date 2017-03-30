@@ -34,6 +34,7 @@ class CaptureAndPastePlugin extends MantisPlugin
     function resources()
     {
         config_set('dropzone_enabled', OFF);
+        config_set('file_upload_max_num', 1);
 
         echo '<script src="' . plugin_file('paste.js') . '" type="text/javascript"></script>';
         echo '<script src="' . plugin_file('captureandpaste.js') . '" type="text/javascript"></script>';

@@ -25,6 +25,8 @@ class CaptureAndPastePlugin extends MantisPlugin
 
     function addIncludes($p_event, $p_project_id)
     {
+        config_set('file_upload_max_num', 1);
+
         echo '<link type="text/css" rel="stylesheet" href="plugins/CaptureAndPaste/pages/captureandpaste.css" />';
         echo '<script type="text/javascript" src="plugins/CaptureAndPaste/pages/paste.js"></script>';
         echo '<script type="text/javascript" src="plugins/CaptureAndPaste/pages/captureandpaste.js"></script>';
